@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+
+.midwidth {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+.Testimonial_section {
+    background-color: #edf2f8;
+    padding: 30px 0;
+
+}
+
+.difult_style {
+    padding: 20px;
+
+}
+.logo_title {
+    display: flex;
+}
+
+.difult_style .logo img {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 40px;
+    border: 3px solid #e5e5e554;
+} 
+
+.difult_style .content h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #424242;
+    margin: 4px;
+}
+.difult_style .content span {
+    font-size: 15px;
+    color: #959393;
+}
+.difult_style h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #444140;
+}
+.difult_style p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}
+
+
+
+
+.left_item {
+    width: 76%;
+}
+.top_two {
+    display: flex;
+}
+.daniels_style {
+    background-color: #7140c6;
+    border-radius: 6px;
+}
+.top_two .content h4 {
+    color: #fbfbfb;
+    font-weight: 400;
+}
+.top_two .content span {
+    color: #ababab;
+}
+.top_two h2 {
+    color: #fafafa;
+    font-size: 20px;
+}
+.top_two p {
+    color: #a9a8a8;
+}
+.Jonathans_style {
+    background-color: #4a566a;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+
+.bottom_two {
+    display: flex;
+    margin-top: 20px;
+}
+.bottom_two h2 {
+    font-size: 20px;
+}
+.Jeanettes_style {
+    background-color: #fff;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.Patricks_style {
+    background-color: #18202d;
+    border-radius: 6px;
+
+}
+.Patricks_style .content h4 {
+    color: #fbfbfb;
+    font-weight: 400;
+} 
+.Patricks_style .content span {
+    color: #ababab;
+}
+.Patricks_style h2 {
+    color: #fafafa;
+    font-size: 20px;
+}
+.Patricks_style p {
+    color: #a9a8a8;
+}
+
+
+.right_item {
+    width: 23%;
+    margin-left: 20px;
+}
+.kiras_style {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+@media (max-width:992px) {
+    .left_item {
+        width: 100%;
+    }
+    .right_item {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .midwidth {
+        display: block;
+        padding: 30px;
+    }
+}
+@media (max-width:768px) {
+    .top_two {
+        display: block;
+    }
+    .bottom_two {
+        display: block;
+    }
+    .Jonathans_style {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .Jeanettes_style {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
